@@ -2,7 +2,7 @@ import './style.css';
 
 import products from "./api/products.json";
 
-import { showProductContainer } from './HomeProductCards';
+import { showProductContainer } from './homeProductCards';
 
 //new--------
 import { updateCartValue } from './updateCartValue';
