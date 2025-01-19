@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - UrbanLife</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+    <div class="order-confirmation-container">
+        <h1>Thank You for Your Order!</h1>
+        <p class="order-message">Your order has been successfully placed.</p>
+
+        <div class="order-details">
+            <h2>Order Summary</h2>
+            <p><strong>Order Number:</strong> <span id="orderNumber"></span></p>
+            <p><strong>Order Total:</strong> ₹<span id="orderTotal"></span></p>
+            <p><strong>Estimated Delivery Date:</strong> <span id="deliveryDate"></span></p>
+        </div>
+
+        <button class="home-btn" id="continueShopping">Continue Shopping</button>
+    </div>
+
+    <script type="module" src="orderconfirmation.js"></script>
+</body>
+</html>

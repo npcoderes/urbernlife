@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>UrbanLife</title>
+</head>
+
+
+
+<body>
+    <!--nav section-->
+    <header class="section-navbar">
+        <section class="top-txt">
+            <div class="headcontainer">
+                <div class="head_txt">
+                    <p>Free shipping, 30-day return or refund guarantee.</p>
+                </div>
+                <div class="sign_in_up">
+                    <a href="login.html">SIGN IN</a>
+                    <a href="register.html">SIGN UP</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-navbar">
+            <nav>
+                <div class="logo">
+                    <img src="./image/ULlogo.png">
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue"></a>
+                        <!-- <i class="fa-solid fa-cart-shopping"> 0 </i> -->
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!--Hero section-->
+    <section class="hero-section">
+        <div class="content">
+            <h1>Fresh Organic Products Delivered<br>To Your Doorstep</h1>
+            <p>Welcome to UrbanLife, your one-stop shop for organic and sustainable living. Discover the joy of healthy
+                living with UrbanLife - organic, sustainable, and mindfully curated just for you!</p>
+        </div>
+        <div class="image">
+            <img src="./image/hero1.png" alt="Organic Lifestyle">
+        </div>
+    </section>
+
+    <div class="custom-shape-divider-bottom-1735465109">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25" class="shape-fill"></path>
+            <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5" class="shape-fill"></path>
+            <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <!--AboutUs section-->
+    <div class="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p><b>UrbanLife</b> is a sustainable market place for health and environment conscious shoppers. Users can
+                explore a wide range of products in categories like grocery,beauty, home care and accessories, with
+                helpful descriptions, health benefits and reviews.User can know about the transparency of the products
+                which means all the products in website are animal-cruelty free, gluten free, vegan etc.To provide a
+                user-friendly platform where user can easliy browse,compare and purchase organic products.The main
+                objective is to promote healthy living lifestyle.</p>
+            <button onclick="window.location.href='AboutUs.html'">Read More</button>
+        </div>
+        <div class="about-image">
+            <img src="./image/hero7.png" alt="organic">
+        </div>
+    </div>
+
+    <!--Explore categories section-->
+    <div class="categories-section" id="categories">
+        <h2>Explore Our <span>Hottest Categories</span></h2>
+        <div class="categories-container">
+            <div class="category-card">
+                <img src="./image/hero2.png" alt="Grocery">
+                <h3>Grocery</h3>
+                <p>Discover a wide range of essential groceries and staples for your everyday needs.</p>
+                <button onclick="redirectToCategory('grocery')">Explore</button>
+            </div>
+            <div class="category-card">
+                <img src="./image/hero10.png" alt=" organic Personal Care">
+                <h3>Beauty</h3>
+                <p>Find top-quality Beauty care products to keep you feeling fresh and confident.</p>
+                <button onclick="redirectToCategory('beauty')">Explore</button>
+            </div>
+            <div class="category-card">
+                <img src="./image/hero9.png" alt="Organic Home care products">
+                <h3>Home Care</h3>
+                <p>Discover Pure Care: Organic Solutions for a Cleaner, Greener Home.</p>
+                <button onclick="redirectToCategory('homecare')">Explore</button>
+            </div>
+            <div class="category-card">
+                <img src="./image/hero11.png" alt="Organic Accessories">
+                <h3>Accessories</h3>
+                <p>Style with Purpose: Organic Accessories for a Sustainable Tomorrow.</p>
+                <button onclick="redirectToCategory('accessories')">Explore</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Explore products section-->
+    <section class="section-products">
+        <div class="container-txt">
+            <h2>Checkout <span>UrbanLife</span> Store</h2>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="productContainer">
+
+        </div>
+    </section>
+
+    <!--product template section-->
+    <template id="productTemplate">
+        <div class="cards" id="cardvalue">
+            <article class="information [card]">
+                <span class="category"></span>
+
+                <div class="imageContainer">
+                    <img class="productImage" src="" alt="" />
+                </div>
+
+                <h2 class="productName"></h2>
+
+                <div class="productRating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="productDescription"></p>
+
+                <div class="productPriceElement">
+                    <p class="productPrice"></p>
+                    <p class="productActualPrice"></p>
+                </div>
+
+                <div class="productStockElement">
+                    <p class="productProperty">Total Stocks Available:</p>
+                    <p class="productStock"></p>
+                </div>
+
+                <div class="productQuantityElement">
+                    <p class="productProperty">Quantity(Pieces)</p>
+                    <div class="stockElement">
+                        <button class="cartIncrement">+</button>
+                        <p class="productQuantity">1</p>
+                        <button class="cartDecrement">-</button>
+                    </div>
+                </div>
+
+                <button class="add-to-cartbutton">
+                    <i class="fa-solid fa-cart-shopping"></i>Add To Cart
+                </button>
+            </article>
+        </div>
+    </template>
+
+    <!--Why Choose us section-->
+    <div class="container-txt">
+        <h2>Why <span>Choose Us</span></h2>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="icon-container">
+                <img src="./image/deliver3.png" alt="Fast Delivery">
+            </div>
+            <h3>Fast Delivery</h3>
+            <p>Healthy food nourishes the body with essential nutrients, promoting energy, vitality, and overall
+                well-being.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-container">
+                <img src="./image/bestquality.png" alt="Best Quality">
+            </div>
+            <h3>Best Quality</h3>
+            <p>"Best quality is the hallmark of excellence, reflecting meticulous attention to detail and a
+                commitment to superior standards."</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-container">
+                <img src="./image/freereturn.png" alt="Free Return">
+            </div>
+            <h3>Free Return</h3>
+            <p>Enjoy peace of mind with our free return policy, ensuring a hassle-free experience if you're not
+                completely satisfied.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-container">
+                <img src="./image/affordable.png" alt="Affordable">
+            </div>
+            <h3>Affordable</h3>
+            <p>Pure and natural products, priced just right for everyone. Live green, spend lean—because healthy
+                living shouldn't cost a fortune!</p>
+        </div>
+
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>UrbanLife</h3>
+                <p>Your one-stop marketplace for sustainable and health-conscious living.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="beauty.html">Beauty</a></li>
+                    <li><a href="homecare.html">Home Care</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 UrbanLife. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script type="module" src="main.js"></script>
+    <script>
+        function redirectToCategory(category) {
+            window.location.href = `${category}.html?category=${category}`;
+        }
+    </script>
+
+</body>
+
+</html>

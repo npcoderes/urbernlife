@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<!--nav section-->
+<header class="section-navbar">
+    <section class="top-txt">
+        <div class="headcontainer">
+            <div class="head_txt">
+                <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="sign_in_up">
+                <a href="login.html">SIGN IN</a>
+                <a href="register.html">SIGN UP</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-navbar">
+        <nav>
+            <div class="logo">
+                <img src="./image/ULlogo.png">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue"></a>
+                    <!-- <i class="fa-solid fa-cart-shopping"> 0 </i> -->
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+    <header id="checkoutpageheader">
+        <h1>UrbanLife Checkout</h1>
+    </header>
+    <main id="checkout-container">
+        <form id="checkout-form">
+            <h2>Billing Information</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+    
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="upi">UPI</option>
+                <option value="cod">Cash on Delivery</option>
+            </select>
+    
+            <h3>Order Summary</h3>
+            <div id="cart-summary">
+                <p>Subtotal: <span class="productSubTotal">₹0</span></p>
+                <p>Shipping Fee: ₹50</p>
+                <p>Total: <span class="productFinalTotal">₹0</span></p>
+            </div>
+    
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <!--footer section-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>UrbanLife</h3>
+                <p>Your one-stop marketplace for sustainable and health-conscious living.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="beauty.html">Beauty</a></li>
+                    <li><a href="homecare.html">Home Care</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 UrbanLife. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+
+
+    <script type="module" src="checkout.js"></script>
+</body>
+</html>

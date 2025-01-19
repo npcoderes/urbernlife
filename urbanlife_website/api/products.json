@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Black Rice",
+        "category": "Grocery",
+        "brand": "Natureland",
+        "price": 165,
+        "actualprice": 300,
+        "stock": 15,
+        "description": "A powerhouse of antioxidants, protein, iron, vitamins and minerals; This Purple rice is loaded with enormous health benefits, which makes it a perfect healthy option to go for! Here’s how the consumption of this magical superfood helps in preventing from various diseases and promotes good health.",
+        "image" :"/urbanlife_website/public/image/grocery/black-rice.png" 
+    },
+    {
+        "id": 2,
+        "name": "Organic Brown Rice",
+        "category": "Grocery",
+        "brand": "Natureland",
+        "price": 200,
+        "actualprice": 350,
+        "stock": 15,
+        "description": "Brown rice has a mild, nutty flavor, and is chewier and more nutritious than white rice. Very easy to digest due to higher roughage content and good for every day home consumption. Packed hygienically to maintain the nutrition, taste and health benefits various diseases and promotes good health.",
+        "image": "/urbanlife_website/public/image/grocery/brown-rice.png"
+        
+    },
+    {
+        "id": 3,
+        "name": "Organic Chick Peas",
+        "category": "Grocery",
+        "brand": "Organic Tattva",
+        "price": 175,
+        "actualprice": 350,
+        "stock": 15,
+        "description": "Packed with protein, our Kabuli Chana is an ideal addition to a balanced diet, making it perfect for vegans, vegetarians, and anyone looking to boost their protein intake.",
+        "image": "/urbanlife_website/public/image/grocery/chick-peas.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Shea Butter Face Cream",
+        "category": "Beauty",
+        "brand": "Tapveda",
+        "price": 179,
+        "actualprice": 300,
+        "stock": 10,
+        "description": "Versatile Moisturizer: Suitable for daily use, Tapveda Shea Butter face cream can be incorporated into your morning and evening skincare routine for consistent hydration.",
+        "image": "/urbanlife_website/public/image/beauty/facecream.png"
+    },
+    {
+        "id": 5,
+        "name": "Walnut Oil Scrub",
+        "category": "Beauty",
+        "brand": "Trikuta Oils",
+        "price": 345,
+        "actualprice": 500,
+        "stock": 20,
+        "description": "Walnut Oil Meal Scrub Help for Opens Clogged Pores, Exfoliates the Skin, Leaves Skin Nourished and Supple.Facial Scrub for Dull, and Dry, Sensitive Skin. Assist with eliminating difficult blackheads, purify and limit pores.",
+        "image": "/urbanlife_website/public/image/beauty/facescrub.png"
+    },
+    {
+        "id": 6,
+        "name": "Aloe Vera & Cucumber Body Wash",
+        "category": "Beauty",
+        "brand": "Bodify",
+        "price": 206,
+        "actualprice": 400,
+        "stock": 20,
+        "description": "Blending the soothing properties of aloe vera with the refreshing qualities of cucumber extract, this body wash provides a revitalizing and hydrating experience, soothing the skin while leaving it feeling refreshed and invigorated.",
+        "image": "/urbanlife_website/public/image/beauty/bodywash.png"
+    },
+
+    {
+        "id": 7,
+        "name": "Lavender Fragrance Sachet (Potli Bags)",
+        "category": "HomeCare",
+        "brand": "AromaticHimalayas",
+        "price": 199,
+        "actualprice": 350,
+        "stock": 10,
+        "description": "Filled with highly aromatic Lavender buds from Himalayas, covered in breathable potli Bag.Hang or place in wardrobes, linen closets, drawers, lockers, book shelves, travel Bags, etc. to protect your belongings from moths, their larvae and eggs.",
+        "image": "/urbanlife_website/public/image/Homecare/lavendersachet.png"
+    },
+    {
+        "id": 8,
+        "name": "Eco-Friendly Organic Drinking Straws",
+        "category": "HomeCare",
+        "brand": "The Able Co.",
+        "price": 279,
+        "actualprice": 400,
+        "stock": 20,
+        "description": "Made from renewable wheat stems, our straws help reduce plastic waste and protect the planet. With a durable construction, these straws won't get soggy or break apart while you enjoy your favorite beverages.",
+        "image": "/urbanlife_website/public/image/Homecare/organicstraws.png"
+    },
+    {
+        "id": 9,
+        "name": "Organic Wood Cleaner & Polish",
+        "category": "HomeCare",
+        "brand": "Ecovia",
+        "price": 245,
+        "actualprice": 375,
+        "stock": 20,
+        "description": "for All Wooden Surfaces: Experience the ultimate cleaning power with Ecovia's Natural Wood Cleaner and Polish Spray. Easily remove stains, grease, dirt, and marks from wooden floors, furniture, cabinets, and laminate surfaces, restoring their natural beauty effortlessly.",
+        "image": "/urbanlife_website/public/image/Homecare/woodcleaner.png"
+    },
+
+    {
+        "id": 10,
+        "name": "Organic Cotton Tote Bags",
+        "category": "Accessories",
+        "brand": "Printgalli",
+        "price": 220,
+        "actualprice": 420,
+        "stock": 10,
+        "description": "Our tote bag is made from 100% organic cotton, helping you make an environmentally conscious choice while reducing the use of single-use plastic bags. It’s perfect for those who want to live sustainably and still enjoy a stylish accessory.",
+        "image": "/urbanlife_website/public/image/accessories/totebags.png"
+    },
+    {
+        "id": 11,
+        "name": "Organic Bamboo Toothbrush",
+        "category": "Accessories",
+        "brand": "Rusabl",
+        "price": 199,
+        "actualprice": 360,
+        "stock": 10,
+        "description": "100% ORGANIC BAMBOO: Great for kids and adults, our brushes and cases are made from organic bamboo and are cruelty-free. The brushes feature unique dotted patterns to easily distinguish your brush.",
+        "image": "/urbanlife_website/public/image/accessories/toothbrush.png"
+    },
+    {
+        "id": 12,
+        "name": "Handwoven Jute Shelf Basket",
+        "category": "Accessories",
+        "brand": "Generic",
+        "price": 299,
+        "actualprice": 500,
+        "stock": 10,
+        "description": "Material: Cotton jute, Color: Beige, Shape: Round, Product-Dimensions: 18D x 18W x 4H Centimeters,Beige, Shape: Round, Product-Dimensions: 18D x 18W x 4H Centimeters",
+        "image": "/urbanlife_website/public/image/accessories/basket.png"
+    }
+    
+    
+    
+]
+
